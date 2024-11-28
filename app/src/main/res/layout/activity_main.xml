@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="start"
+    android:background="#BCFFFFFF"> <!-- Default white background -->
+
+    <!-- Win-Loss Record Input -->
+    <EditText
+        android:id="@+id/editTextWinLossRecord"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_win_loss_record"
+        android:layout_marginBottom="16dp"
+        android:importantForAutofill="no" />
+
+    <!-- Points per Game (PPG) Input -->
+    <EditText
+        android:id="@+id/editTextPPG"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_ppg"
+        android:layout_marginBottom="16dp"
+        android:importantForAutofill="no" />
+
+    <!-- Opponent Points per Game (OPPG) Input -->
+    <EditText
+        android:id="@+id/editTextOPPG"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_oppg"
+        android:layout_marginBottom="16dp"
+        android:importantForAutofill="no" />
+
+    <!-- Offensive Rating Input -->
+    <EditText
+        android:id="@+id/editTextOffensiveRating"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_offensive_rating"
+        android:layout_marginBottom="16dp"
+        android:importantForAutofill="no" />
+
+    <!-- Defensive Rating Input -->
+    <EditText
+        android:id="@+id/editTextDefensiveRating"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_defensive_rating"
+        android:layout_marginBottom="16dp"
+        android:importantForAutofill="no" />
+
+    <!-- Games Missed Input -->
+    <EditText
+        android:id="@+id/editTextGamesMissed"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_games_missed"
+        android:layout_marginBottom="16dp"
+        android:importantForAutofill="no" />
+
+    <!-- Predict Button -->
+    <Button
+        android:id="@+id/buttonRequest"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/button_predict"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Prediction Result -->
+    <TextView
+        android:id="@+id/predictionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prediction_result"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/text_color" />
+
+</LinearLayout>

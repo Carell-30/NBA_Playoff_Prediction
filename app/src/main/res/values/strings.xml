@@ -1,0 +1,22 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">NBA Playoff Prediction</string>
+
+    <!-- Hints for EditTexts -->
+    <string name="hint_win_loss_record">Win-Loss Record</string>
+    <string name="hint_ppg">Points per Game (PPG)</string>
+    <string name="hint_oppg">Opponent Points per Game (OPPG)</string>
+    <string name="hint_offensive_rating">Offensive Rating</string>
+    <string name="hint_defensive_rating">Defensive Rating</string>
+    <string name="hint_games_missed">Games Missed</string>
+
+    <!-- Button Text -->
+    <string name="button_predict">Predict Playoff Status</string>
+
+    <!-- Prediction Result Text -->
+    <string name="prediction_result">Prediction Result Will Appear Here</string>
+
+    <!-- Error and Failure Messages (if needed for future error handling) -->
+    <string name="error_message">Error: </string>
+    <string name="failure_message">Failure: </string>
+</resources>

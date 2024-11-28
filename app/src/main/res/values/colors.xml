@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_color">#3F51B5</color> <!-- Indigo -->
+    <color name="primary_dark_color">#303F9F</color> <!-- Darker Indigo -->
+    <color name="primary_light_color">#C5CAE9</color> <!-- Light Indigo -->
+
+    <!-- Secondary (Accent) Colors -->
+    <color name="accent_color">#FF4081</color> <!-- Pink -->
+
+    <!-- Text Colors -->
+    <color name="text_color_white">#FFFFFFFF</color> <!-- White -->
+    <color name="text_color">#000000</color> <!-- Black text color -->
+
+    <!-- Button Colors -->
+    <color name="button_text_color">#FFFFFFFF</color> <!-- White text color -->
+
+    <!-- Background Colors -->
+    <color name="background_color_light">#FFFFFF</color> <!-- White -->
+    <color name="background_color_dark">#121212</color> <!-- Dark Gray -->
+
+    <!-- Utility Colors -->
+    <color name="error_color">#D32F2F</color> <!-- Red -->
+    <color name="success_color">#388E3C</color> <!-- Green -->
+    <color name="warning_color">#FFA000</color> <!-- Amber -->
+
+    <!-- Existing Colors -->
+    <color name="black">#FF000000</color> <!-- Black -->
+    <color name="white">#FFFFFFFF</color> <!-- White -->
+
+    <!-- Additional Colors -->
+    <color name="edittext_background_color">#EFEFEF</color> <!-- Light Gray background for EditText -->
+</resources>
